@@ -2,7 +2,9 @@
 title: "My first R markdown"
 author: "Chiara"
 date: "15/01/2021"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
